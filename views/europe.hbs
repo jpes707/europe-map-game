@@ -1,0 +1,27 @@
+<head>
+    <link rel="shortcut icon" href="media/favicon.png">
+    <title>Europe map game</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/mapsvg.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="column" id="map" style="margin-top: 10px;"><div id="mapsvg"></div></div>
+        <div class="column" id ="info" style="margin-top: -50px;">
+            <h1>Europe map game</h1>
+            <h2 id="question"></h2>
+            <h3 id="score">Your score: </h3>
+            <h3>Top players</h3>
+            <ul id='leaderboard' style="margin-bottom: -50px;">
+            </ul>
+            <br>
+            <br>
+            <form action='/logout' method ='get'>
+                <button type='submit'>Log out</button>
+            </form>
+            <p>Note: You cannot return to your progress later if you log out, but your name will remain on the leaderboard.</p>
+        </div>
+    </div>
+</body>
