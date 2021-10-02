@@ -26,7 +26,7 @@ fs.readFile('files/questions.txt', 'utf8', (err, contents) => {
 });
 
 var cookiesToUser = {
-    'default0': {
+    /*'default0': {
 		name: 'Zeeeardy',
 		currentQuestionId: Math.floor(Math.random() * questions.length),
 		score: 9
@@ -75,7 +75,7 @@ var cookiesToUser = {
 		name: 'unmotiivated',
 		currentQuestionId: Math.floor(Math.random() * questions.length),
 		score: 96
-	}
+	}*/
 };
 
 let getCookie = (name, cookies) => {
